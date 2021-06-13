@@ -2,230 +2,231 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="../../cssLibrary.css">
+  <link rel="stylesheet" href="../../w3css.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="../jquery.js"></script>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
-  <script src="jquery.js"></script>
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <meta name="description" content="Austine Samuel fullstack Web developer in Nigeria">
-  <title>Austine Samuel Portfolio</title>
+  <title>portfolio</title>
 </head>
 <body>
- 
-<div id="menu">
-  <button class="a">About Me</button>
-  <button> My Services</button>
-  <button class="a">Why Hire Me</button>
-  <button>Contact Me</button>
+  <div id="body">
+    <div id="navCtn" class="w3-block">
+<nav id="nav" class="flexBetween w3-black" style="padding:0px 10px !important; min-height:45px;">
+  <button class="fa fa-envelope"></button>
+  <div id="pcNav" class="flexBetween">
+    <button class="w3-padding" id="aboutMeBtn">About Me</button>
+    <button id="serviceBtn"  class="w3-padding" >My Service</button>
+    <button  id="worksBtn" class="w3-padding" >My Works</button>
+    <button id="contactBtn" class="w3-padding">Contact Me </button>
+  </div>
+  <button id="openMenu" class="fa fa-reorder w3-padding"></button>
+</nav>
+
+<h6 id="hrF"></h6>
+</div><br><br>
+
+<div id="top" class="w3-block w3-padding">
+
+  <div class="flexBetween" style="flex-flow:row wrap">
+    <div id="name">
+      <h1>Hi I'm <br><span class="nameStyle">Austine Samuel</span>
+      <div class="animateV"><div class="content">FullStack Web Developer</div></div>
+    
+    </h1>
+    </div>
+    <div id="action" class="flexBottom" style="justify-content:flex-start !important;"><button id="learnMore" class="w3-button" style="padding:5px 10px !important;">Learn More</button></div>
   </div>
 
-  <div id="nav">
-<nav>
-  <span class="fa fa-computer"></span>
+  <div id="cloud" class="flexBetween" style="align-items:center;">
+    <b class="w3-padding" style="margin-left:-10px;">Let me Explain My Self<br><i id="explainArrow" class="fa fa-angle-double-down"></i></b>
+    <div id="image"></div>
+  </div>
+  
+</div><h6 id="hrF"></h6>
 
-  <button id="men" class="fa fa-reorder"></button>
-</nav>
-  <br><br>
-  <hr>
-   <div id="sayHi">
-   <h1>
-    Hi i am <br><span class="firstName">Austine</span>
-    <span class="secondName">Samuel</span><br>
-    Web Developer
-  </h1>
-<img src="images/css.jpg">
-</div></div>
+<h2 class="flexBetween w3-padding"><span>ABOUT ME</span> <button id="hang"><span>.</span></button></h2>
+<br>
+<div class="w3-block" id="box" >
+<div class="Ctn w3-padding w3-container">
+<div id="imgCircle" class="w3-center w3-block">
+  <img src="../images/di45LjEbT.gif"><br>
+  <i>check out my story</i>
+</div>
+<section>
+  <span id="large">
+  Hi i'm Austine Samuel a FullStack web developer naturally curiouse with over two years 
+  work experience on frontEnd development, backEnd development,Games  & and designs deciplines 
+.<br>
+I prefer to keep learning, challaging my self, and do
+ what am interested in doing 
+,i'm never satisfy on just coming up with new idea
+..i'll takes challage of bringing my new idea into reality.
+ I'm naturally telented with ability to understand new thing as fast as possible.
+ <i style="font-size:small">read more about me on the PDF link bellow</i>
+</span>
 
-<div id="navList">
-  <button class="aboutMe">About Me</button>
-  <button class="skills"> My Skills </button>
-  <button class="projects">My projects</button>
-<button class="see">Find Out</button>
+</section><br>
+<button class="w3-button" id="shareBtn"> download PDF File <span class="fa fa-download"></span></button>
+</div>
+</div>
+
+
+<h2 id="service" class="flexBetween w3-padding"><span>MY SERVICE</span> <button id="hang"><span>.</span></button></h2>
+<div id="box" class="flexBetween">
+
+
+<div id="services" class="w3-padding">
+  <h4 class="w3-center"><b>FrontEnd Web Development</b></h4>
+  <section class="w3-section w3-center">
+  <img src="../images/f1.png" alt="web designing"><br>
+I love developing web functionalities comunicating with 
+APIs & Servers , Games  and bringing my ideas to reality in browsers, using JavaScript <small>(web programing language)</small> , Jquery.js & Angular.js (<small>JavaScript frameworks)</small> ...
+  </section>
+  </div>
+
+  <br>
+  
+  <div id="services" class="w3-padding">
+<h4 class="w3-center"><b>Web Designs</b></h4>
+<section class="w3-section w3-center">
+<img src="../images/frontEnd2.png" alt="web designing"><br>
+i enjoy designing websites using (HTML CSS <small>web languages</small>) with clean design pattern on making responsive & attractive Mothen UIs.
+</section>
 </div>
 <br>
 
-<div id="app">
-  <div id="ctn">
-<div id="r1"><button id="click" name="php"><img src="images/php.png">PHP</button><button id="click" name="sql"><img src="images/sql.png">SQL</button></div>
-<div id="r2"><button id="click" name="react"><img src="images/react.png">React.js</button><button id="click" name="angular"><img src="images/angular.jpg">Angular.JS</button></div>
-<div id="r3"><button id="click" name="html"><img src="images/html.png">HTML</button><button id="click" name="css"><img src="images/css.jpg">CSS</button></div>
-<div id="r4"><button id="click" name="jquery"><img src="images/jquery.jpg">JQuery.js</button>
-  <img src="images/skills.jpg">
-  <button id="click" name="js"><img src="images/js.jpg">JS</button></div>
-  </div>
- </div>
 
- <h2 class="heading"><img src="images/images (5).jpeg">About Me</h2>
-<section>
-<article>
- 
-I do fullstack web development with Javascript(JqueryJs,AngularJs,ReactSJ) frontend and PHP/SQL  backend and other technologies,
-build web designs in HTML5,CSS3.
-Web development have not being Easy but i do it with passion
-i am a Nigerian 
-I love working remotely ... 
-<br> <!--
-<span>
-  But PHP and Javascript are two complex programming languages How sure am i ,that Austine Samuel really know PHP and Javascript ?
-</span>-->
-<i>
-<h3 style="text-align:center;">Find Out By My Personal Projects</h3>
-</i>
-</article>
+  <div id="services" class="w3-padding">
+    <h4 class="w3-center"><b>BackEnd Development</b></h4>
+    <section class="w3-section w3-center">
+    <img src="../images/frontEnd.png" alt="web designing"><br>
+  I'm more specialised on Working with Data and developing Backends using 
+  using PHP (<small>server side programing language</small>) and MYSQL database.
+<div style="font-family:cursive; text-align:center;color:rgb(255, 115, 0);"> AND</div>
+
+ Designing an awesome dataBases for websites and apps using
+   PHP (<small>server side programing language</small>) and SQL Database 
+   language.... using MySQL database
+
 </section>
-
-
-<h2 class="heading"><img src="images/images (5).jpeg">My Works</h2>
-<div id="projectsList">
-<button class="active" id=" ">All</button>
-<button id=" ">Vanilla.JS</button>
-<button id=" ">Angular.JS</button>
-<button id=" ">Jquery.JS</button>
-<button id=" ">React.JS</button>
-<button id=" ">PHP SQL</button>
-<button id=" ">Canvas Games</button>
-<button id=" ">Css Arts</button>
-</div>
-
-<section>
-  <br>
-<div id="projects">
-
-<div id="projectCtn">
-  <div>
-    <button onclick='viewPg("Life Chat App",{"js":"10%","angular":"5%","jquery":"30%", "sql":"15%","php":"30%"})' class="see">Take a look</button>
-    <span>Real time Ecomerce App </span>
-  </div>
     </div>
 
-  
-<div id="projectCtn">
-  <div>
-    <button  onclick='viewPg("Voice Detector",{"js":"10%","angular":"5%","jquery":"30%", "sql":"15%","php":"30%"})' class="see">Take a look</button>
-    <span>Real time Ecomerce App </span>
-  </div>
-   
-  </div>
-
-  
-<div id="projectCtn">
-  <div>
-  <button  onclick='viewPg("Real Time Ecomerce App",{"react":"20%","js":"10%","angular":"5%","jquery":"30%", "sql":"15%","php":"30%"})'  class="see">Take a look</button>
-  <span>Real time Ecomerce App </span>
-</div>
-  </div>
-
-</div>
-<br>
-</div>
-
-</section>
-
-  <h2 class="heading"> <img src="images/rTnRM5xTR.gif"> Why Hire Me ?</h2>
-
-<div id="whyCtn">
-
-<div id="box">
-  <i class="fa fa-code"></i>
-<div id="text">
-<h3>Coding From Scratch</h3>
-<span>I start Coding projects from Scratch with all my creativity to make new Product for Clients</span>
-</div>
 </div>
 
 
+<h2 class="flexBetween w3-padding"><span>WHY ME ?</span> <button id="hang"><span>.</span></button></h2>
 
-<div id="box">
- <i class="fa fa-users"></i>
-  <div id="text">
-  <h3>Support</h3>
-  <span>
-    i take my steps by steps to make sure my Clients reach their visions
-  </span>
-  </div>
-  </div>
+<div id="whyMe">
 
-  
-</div>
-
-
-<h2 class="heading"> <img src="images/images (5).jpeg">My Service</h2>
-
-<div id="whyCtn">
-
-<div class="service" id="box">
-  <i class="fa fa-laptop"></i>
-<div id="text">
-<h3>Web Designs</h3>
-<span>Designing letest mothen UI with Quality Codes</span>
-</div>
-</div>
-
-
-
-<div class="service" id="box">
- <i class="fa fa-keyboard-o"></i>
-  <div id="text">
-  <h3>Web Development</h3>
-  <span>
-Building website or app from Scratch
-   </span>
-  </div>
-  </div>
-
-  
-<div class="service" id="box">
-  <i class="fa fa-tint"></i>
-   <div id="text">
-   <h3>Mobile App </h3>
-   <span>
- Building cross platform App that only work online PWAs
+  <div id="fast">
+    <button class="fa fa-rocket"></button><br>
+    <b>Fast Development</b><span class="w3-padding"><br>
+      i make sure of project completion before dateline provided.
     </span>
-   </div>
-   </div>
-
-</div>
-
-
-
-<h2 class="heading">Contact Me</h2>
-
-<div id="contactMe">
-
-  <div id="form">
-  <form action="" method="POST">
-    <br><br>
-<img src="images/nav.png">
-<h3>Hey Lets Connect !</h3>
-<div id="social">
-  <button class="fa fa-facebook"></button>
-  <button class="fa fa-in"></button>
-<button class="fa fa-phone"></button>
-<button class="fa fa-envelope-o"></button>
-</div><br>
-<div id="mail">
-<input id="mail"placeholder="Enter Your Email" >
-</div>
-<br>
-<div id="msg">
-  <textarea id="msg"placeholder="Type Something"></textarea>
   </div>
-<br>
-  <button id="submit"> Send </button>
 
-<br><br>
-  </form>
- </div>
- 
+
+  
+  <div id="surport">
+    <button class="fa fa-handshake-o"></button><br>
+    <b>Surpport</b><span><br>
+      i'll stay in contact with my clients to make sure they get what they really want.
+    </span>
+  </div>
+
+
+  <div id="code">
+    <button class="fa fa-magic"></button><br>
+    <b>Clean Code</b><span><br>
+      i'll take time to write clean code that can be understandable && manage by any other developer.
+    </span>
+  </div>
+
+
+  <div id="easy">
+    <button class="fa fa-mobile"></button><br>
+    <b>Easy To Use</b><span><br>
+      apps and website i developed are user friendly and responsive to work fine on any device
+    </span>
+  </div>
+
+
+  <div id="load">
+    <button class="fa fa-dashboard"></button><br>
+    <b>Fast Loading</b><span><br>
+      websites i developed are very fast in both loading and SEO
+    </span>
+  </div>
+
+
+  <div id="good">
+    <button class="fa fa-cube"></button><br>
+    <b>Good Branding</b><span><br>
+      i focus on quality 
+    </span>
+  </div>
+
+
+
 </div>
-<br>
-<br>
 
-<footer>
-   CopyRights || Austine Samuel || 2021 </footer>
-<span id="movingImg" class="fa fa-coffee"></span>
+<h2 id="works" class="flexBetween w3-padding"><span>MY PERSONAL PROJECTS</span> <button id="hang"><span>.</span></button></h2>
 
+<div id="slide" class="flexBetween w3-container">
+  <button class="fa fa-angle-double-left"></button>
+<div id="slideCtn" class="w3-container"><img src="../images/css.jpg" alt="austine samuel project sample">
+</div>
+<button class="fa fa-angle-double-right"></button>
+</div>
+
+
+<h2 class="flexBetween w3-padding"><span>My Coding Skills</span> <button id="hang"><span>.</span></button></h2>
+
+
+<footer  class="w3-padding" >
+  <h3 style="box-shadow:none; color:white;text-align:center;border-bottom:1px solid rgb(59, 49, 87); background:inherit;">Start a project?</h3>
+
+   <div style="font-family:cursive;width:100%;text-align:center;color:rgb(172, 172, 197);">If my services matchs your need kindly contact me , don't worry i'll buy the coffee</div>
+<br>
+   <div id="form"><b class="heading">Contact Me</b><br>
+    <br>
+ <div class="inputCtn w3-padding"> <label>
+
+<br>
+<div class="inputC   Email or Phone :<br></label><input id="email" placeholder="please enter Email or Phone">
+</div>tn w3-padding"> <label>
+  Enter Message :<br></label><textarea id="email" placeholder="Type message here"></textarea>
+</div><br>
+<div class="flexBetween">
+  <div class="links">
+    <button class="fa fa-facebook"></button>
+    <button class="fa fa-phone"></button>
+    <button class="fa fa-in">In</button>
+    <button class="fa fa-envelope"></button>
+  
+  </div>
+<button  style="background:red;"class="w3-button">Submit</button>
+</div>
+</div>
+<div id="foot" class="w3-footer w3-padding">Powered By AustineSamuelCodes <i class="fa fa-copyright"></i> 2021</div>
+  </footer>
+
+  </div>
+
+  <aside class="flexBetween">
+     <div id="close"></div>
+       <div id="menuC">
+         <button id="showABout">About Me</button>
+         <button id="serviceBtn">My Service</button>
+         <button id="worksBtn">My Works</button>
+         <button id="contactBtn">Contact Me</button>
+       </div>
+ 
+      </aside>
 </body>
-<script src="js.js"></script>
+<script src="main.js"></script>
+<script src="../../MfunctionsLap.js"></script>
 </html>
